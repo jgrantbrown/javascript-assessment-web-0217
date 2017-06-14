@@ -1,7 +1,7 @@
 'use strict';
 // ImageModel
 
-function Image(title, url) {
+function Image(title, url) { 
   this.id = this.constructor.all.length;
   this.title = title;
   this.url = url;
